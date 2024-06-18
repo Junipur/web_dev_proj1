@@ -1,5 +1,24 @@
 /*style.css*/
 
+:root {
+  --black: #080808;
+  --white: #fefefe;
+  --gray: #565656;
+
+  --lightgrey: #555555;
+
+  --teal: #006060;
+  --violetred: #a2106d;
+  --orange: #ffa500;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2em;
+  color: var(--black);
+  margin: 0px;
+}
+
 .top_text {
   text-align: center;
 }
@@ -9,3 +28,27 @@
 }
 
 /*make the fieldset narrower*/
+
+.navbar li {
+  float: right;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: var(--black);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: var(--violetred);
+}
