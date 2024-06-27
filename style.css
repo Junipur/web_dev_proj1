@@ -117,3 +117,9 @@ main {
 .sub {
   margin-left: 40%;
 }
+
+.images_curve {
+  float: left;
+  margin-left: 5%;
+  width: 90%;
+}
