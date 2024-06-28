@@ -85,11 +85,6 @@ h3 {
   text-align: center;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 main {
   display: grid;
   grid-template-areas:
@@ -122,4 +117,9 @@ main {
   float: left;
   margin-left: 5%;
   width: 90%;
+}
+
+.quote {
+  text-align: center;
+  word-wrap: normal;
 }

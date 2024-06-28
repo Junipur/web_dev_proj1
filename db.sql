@@ -1,1 +1,2 @@
-//test
+--#//this should be more like a script than the actual db
+--#//set up the db server on my local machine 
